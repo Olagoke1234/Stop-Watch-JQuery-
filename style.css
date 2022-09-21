@@ -1,0 +1,60 @@
+body {
+  background: url(images/backgroundImage.jpg);
+  background-size: cover;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+/* Style for title */
+
+#header {
+  text-align: center;
+  font-size: 4vw;
+}
+
+/* Style for Stop Watch Lap */
+
+#lap {
+  text-align: right;
+  font-size: 3vw;
+  padding-right: 10px;
+}
+
+/* Style for Stop Watch Time */
+
+#time {
+  text-align: center;
+  font-size: 7vw;
+}
+
+/* ControlsContainer */
+#controlsContainer {
+  margin-bottom: 100px;
+}
+
+/* Controls */
+.controls {
+  color: white;
+  background-color: #d7a04e;
+  height: 8vw;
+  width: 8vw;
+  border-radius: 50%;
+  text-align: center;
+  padding: 20% 0;
+  font-size: 1.8vw;
+  cursor: pointer;
+}
+
+.controls:active {
+  color: #d7a04e;
+  background-color: white;
+}
+
+/* Laps Div */
+
+#laps {
+  max-height: 270px;
+  overflow-y: scroll;
+}
