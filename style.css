@@ -74,3 +74,12 @@ body {
   font-size: 2em;
   float: right;
 }
+
+.footer {
+  margin-top: 400px;
+}
+.footer p,
+.footer a {
+  color: white;
+  font-size: 1em;
+}
