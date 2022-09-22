@@ -11,7 +11,8 @@ body {
 
 #header {
   text-align: center;
-  font-size: 5vw;
+  font-size: 8vw;
+  padding-top: 30px;
 }
 
 /* Style for Stop Watch Lap */
@@ -27,6 +28,7 @@ body {
 #time {
   text-align: center;
   font-size: 10vw;
+  margin-bottom: 20px;
 }
 
 /* ControlsContainer */
@@ -42,9 +44,15 @@ body {
   width: 10vw;
   border-radius: 100%;
   text-align: center;
-  padding: 23% 0;
+  padding: 35% 0;
   font-size: 2vw;
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .controls {
+    padding: 25% 0;
+  }
 }
 
 .controls:active {
@@ -55,7 +63,7 @@ body {
 /* Laps Div */
 
 #laps {
-  max-height: 270px;
+  max-height: 200px;
   overflow-y: scroll;
 }
 
@@ -76,7 +84,8 @@ body {
 }
 
 .footer {
-  margin-top: 400px;
+  position: absolute;
+  bottom: -350px;
 }
 .footer p,
 .footer a {
